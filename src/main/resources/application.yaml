@@ -13,6 +13,3 @@ spring:
   cache:
     type: caffeine
     cache-names: myCache, ${spring.python.cache.name.file-bodies}, ${spring.python.cache.name.file-paths}, ${spring.python.cache.name.resolver}, ${spring.python.cache.name.executor}, ${spring.python.cache.name.processor}
-  docker:
-    compose:
-      file: ./demo-app/docker-compose.yaml
